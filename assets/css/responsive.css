@@ -1,0 +1,317 @@
+@media only screen and (max-width:991px) {
+.flush-xs {
+    padding-right: 0px;
+    padding-left: 0px;
+} 
+
+.navbar-toggler {
+    line-height: 1;
+    padding: 0;
+    border-radius: 0;
+}
+.navbar-toggler.menu-icon {
+    width: 40px;
+    padding:0;
+    cursor: pointer;
+    position: relative;
+    border:0px;
+}
+.navbar-toggler.menu-icon span {
+    width: 100%;
+    height: 4px;
+    display: block;
+    background: #fff;
+    margin: 6px 0;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.navbar-toggler.menu-icon.active span {
+    position: absolute;
+    top: calc(50% - 8px);
+}
+.navbar-toggler.menu-icon.active span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+.navbar-toggler.menu-icon.active span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+.navbar-toggler.menu-icon.active span:nth-child(2) {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    display: none;
+} 
+
+.visible-xs {
+    display: inline-block;
+}
+
+.xs-100 {
+    width: 100%;
+}
+
+.navbar-light .navbar-brand {
+    width:75%;
+    text-align: left;
+}
+
+.navbar-light .navbar-brand img {
+    max-height: 56px;
+}
+
+.menu-btn {
+    margin-top: 17px;
+}
+
+.header {
+    padding: 0px;
+}
+
+.header.active {
+    background: #000;
+}
+
+.header {
+    padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+    line-height: 45px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    text-align: center;
+}
+
+ul.navbar-nav {
+    padding-left: 0%;
+}
+
+.navbar-expand-lg .navbar-nav li {
+    margin: 0;
+}
+
+
+}
+@media only screen and (max-width:767px) {
+
+    h2 {
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-size: 24px;
+    }
+    
+    h5 {
+        font-size: 18px;
+    }
+    
+    .underlined::after {
+        left: 50%;
+        margin-left: -35px;
+        width: 70px;
+    }
+    
+    .row-eq-height {
+        display:inline-block;
+    }
+
+    .banner h2 {
+        line-height: 1.4;
+        font-size: 21px;
+    }
+
+    .banner h6 {
+        line-height: 36px;
+        font-size: 18px;
+    }
+    
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .banner .logo {
+        max-height: 130px;
+    }
+
+    .page-banner h1 {
+        font-size: 32px;
+    }
+
+    .btn-standard img {
+        max-height: 50px;
+    }
+    
+    .section-title h3 {
+        font-size: 20px;
+    }
+
+    .what-we-do .section-title h3 {
+        font-size: 20px;
+    }
+
+    .brands .mbs>div {
+        margin-bottom: 20px;
+    }
+
+    .brands .mbs>div img {
+        max-height: 90px;
+    }
+
+    .footer {
+        text-align: center !important;
+    }
+    
+    .footer ul {
+        margin-bottom: 30px;
+    }
+
+    .footer ul li {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .footer .social ul li {
+        margin: 0px 5px;
+        width: auto;
+    }
+
+    .footer .copy p {
+        font-size: 14px;
+    }
+
+    .workbtn .text {
+        padding: 10px 15px;
+    }
+
+    .workbtn .text h4 {
+        font-size: 16px;
+    }
+
+    .workbtn .text h4 img {
+        width: 14px;
+    }
+
+    .our-work.single h2,.contact-info h2, .errorpage h2 {
+        font-size: 40px;
+    }
+
+    .contact-info h3 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .errorpage h3 {
+        font-size: 20px;
+    }
+
+    .contact-info .bg {
+        padding: 40px 20px 20px 20px;
+        margin-bottom: 30px;
+    }
+	.errorpage ul li a {
+		font-size: 14px;
+	}
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.banner h2 {
+    font-size: 50px;
+}
+
+.banner h6 {
+    line-height: 36px;
+    font-size: 17px;
+}
+
+.section-title h2 {
+    font-size: 30px;
+}
+
+.section-title h3 {
+    font-size: 20px;
+}
+
+.what-we-do .section-title h3 {
+    font-size: 20px;
+}
+
+.footer ul li {
+    margin-right: 24px;
+}
+
+.page-banner h1 {
+    font-size: 60px;
+}
+
+.our-work.single h2,.contact-info h2,
+.errorpage h2 {
+    font-size: 100px;
+}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+.header .nav-item {
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.navbar-nav .nav-link {
+    padding: 0px 10px !important;
+}
+
+.section-title h3 {
+    font-size: 30px;
+}
+
+.what-we-do .section-title h3 {
+    font-size: 30px;
+}
+
+.page-banner h1 {
+    font-size: 60px;
+}
+
+.our-work.single h2,.contact-info h2, 
+.errorpage h2 {
+    font-size: 130px;
+}
+}
